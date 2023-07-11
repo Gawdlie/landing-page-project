@@ -96,6 +96,11 @@ ul {
 
 
 /* Needs container surrounding the sign up text, small text, and button */
+
+.container {
+    background-color: #3882F6;
+}
+
 .sign-up-text {
     font-size: 24px;
     color: #F9FAF8;
