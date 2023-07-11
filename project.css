@@ -57,7 +57,10 @@ ul {
 
 /* Four Images go here */
 
-/* .small-text is already defined in header, so no need for it again here */
+.small-text-black {
+    font-size: 18px;
+    color: black;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~ */
 
