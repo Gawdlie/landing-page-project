@@ -18,6 +18,8 @@ a {
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .small-text {
