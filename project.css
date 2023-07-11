@@ -102,5 +102,5 @@ ul {
 /* No need for small text declaration again :) */
 
 .other-sign-up-button {
-
+    border: 5px solid white;
 }
