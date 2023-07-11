@@ -31,11 +31,76 @@ ul {
     color: #F9FAF8
 }
 
-.sign-up {
+.sign-up-button {
     background-color: #3882F6;
 }
+
+/* Image goes here */
+
 
 /* ~~~~~~~~~~~~~~~~~~~~ */
 
 
 
+
+/* CSS Code: First Body Section */
+
+.body-section {
+
+}
+
+.medium-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* Four Images go here */
+
+/* .small-text is already defined in header, so no need for it again here */
+
+/* ~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/* CSS Code: Second Body Section */
+
+.second-body-section {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.influencer-quote-text {
+    color: #1F2937;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/* CSS Code: Third Body Section */
+
+.third-body-section {
+
+}
+
+
+/* Needs container surrounding the sign up text, small text, and button */
+.sign-up-text {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+/* No need for small text declaration again :) */
+
+.other-sign-up-button {
+
+}
