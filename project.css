@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    padding: 0px;
 }
 
 /* CSS Code: Header */
@@ -19,7 +20,7 @@ body {
     font-weight: 800;
     display: flex;
     align-items: center;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 a {
@@ -31,14 +32,25 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
-    margin-right: 250px;
+    gap: 50px;
+    margin-right: 300px;
+}
+
+.subtext-header-container {
+    display: flex;
+    margin-left: 300px;
+}
+
+.inside-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-small-text {
     font-size: 18px;
     color: #E5E7EB;
     width: 450px;
+    margin-bottom: 10px;
 }
 
 .large-text {
@@ -46,14 +58,30 @@ ul {
     font-weight: 800;
     color: #F9FAF8;
     width: 500px;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .sign-up-button {
     background-color: #3882F6;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #1F2937;
 }
 
 /* Image goes here */
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cover-image {
+    height: 400px;
+    width: 800px;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~ */
 
@@ -145,7 +173,7 @@ ul {
 }
 
 .footer-small-text {
-    
+
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~ */
