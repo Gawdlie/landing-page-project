@@ -35,15 +35,17 @@ ul {
     margin-right: 250px;
 }
 
-.small-text {
+.header-small-text {
     font-size: 18px;
     color: #E5E7EB;
+    width: 450px;
 }
 
 .large-text {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8
+    color: #F9FAF8;
+    width: 500px;
 }
 
 .sign-up-button {
@@ -119,10 +121,11 @@ ul {
 .sign-up-text {
     font-size: 24px;
     color: #F9FAF8;
-
 }
 
-/* No need for small text declaration again :) */
+.third-body-small-text {
+
+}
 
 .other-sign-up-button {
     background-color: #3882F6;
@@ -141,7 +144,8 @@ ul {
     background-color: #1F2937;
 }
 
-
-/* No need for small text declaration again :) */
+.footer-small-text {
+    
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~ */
