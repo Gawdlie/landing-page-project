@@ -12,6 +12,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .logo {
@@ -44,6 +45,7 @@ ul {
 .inside-container {
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
 }
 
 .header-small-text {
@@ -63,6 +65,8 @@ ul {
 }
 
 .sign-up-button {
+    font-weight: 800;
+    color: #F9FAF8;
     background-color: #3882F6;
     width: 100px;
     padding: 5px;
@@ -79,8 +83,10 @@ img {
 }
 
 .cover-image {
-    height: 400px;
-    width: 800px;
+    height: 250px;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~ */
@@ -94,7 +100,8 @@ img {
     display: flex;
     justify-content: center;
     gap: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 150px;
+    margin-top: 30px;
 }
 
 .information {
@@ -108,35 +115,35 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 /* Four Images go here */
 
 .cash-image {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
     border: 5px solid #3882F6;
 }
 
 .data-image {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
     border: 5px solid #3882F6;
 }
 
 .roi-image {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
     border: 5px solid #3882F6;
 }
 
 .purpose-image {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
     border: 5px solid #3882F6;
 }
@@ -144,9 +151,8 @@ img {
 .small-text-black {
     font-size: 18px;
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10px;
+    text-align: center;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~ */
@@ -160,14 +166,27 @@ img {
     background-color: #E5E7EB;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote-text {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+    width: 500px;
+    margin-top: 100px;
 }
 
 .influencer-quote-text {
+    font-size: 18px;
     color: #1F2937;
+    font-weight: 800;
+    margin-left: 300px;
+    margin-bottom: 100px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~ */
@@ -178,29 +197,49 @@ img {
 /* CSS Code: Third Body Section */
 
 .third-body-section {
-
+    background-color: white;
 }
-
 
 /* Needs container surrounding the sign up text, small text, and button */
 
 .container {
     background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 250px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.third-inside-container {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .sign-up-text {
     font-size: 24px;
+    font-weight: 800;
     color: #F9FAF8;
+
 }
 
 .third-body-small-text {
-
+    margin-right: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .other-sign-up-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: 800px;
     border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 100px;
+    padding: 7px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~ */
