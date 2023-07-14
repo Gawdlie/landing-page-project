@@ -251,10 +251,15 @@ img {
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
 .footer-small-text {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~ */
